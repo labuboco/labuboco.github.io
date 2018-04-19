@@ -239,7 +239,7 @@
 
     
         <meta property="article:published_time" content="Sat Apr 14 2018 22:52:36 GMT+0800">
-        <meta property="article:modified_time" content="Wed Apr 18 2018 22:12:47 GMT+0800">
+        <meta property="article:modified_time" content="Thu Apr 19 2018 13:12:02 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -262,7 +262,7 @@
     "mainEntityOfPage": "https://labuboco.github.io/2018/04/14/使用Heroku部署的问与答/index.html",
     "headline": "使用Heroku部署的问与答",
     "datePublished": "Sat Apr 14 2018 22:52:36 GMT+0800",
-    "dateModified": "Wed Apr 18 2018 22:12:47 GMT+0800",
+    "dateModified": "Thu Apr 19 2018 13:12:02 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Oran Van",
@@ -475,14 +475,15 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <h1 id="使用Heroku部署的问与答"><a href="#使用Heroku部署的问与答" class="headerlink" title="使用Heroku部署的问与答"></a>使用Heroku部署的问与答</h1><p>了解git的话可以完全无障碍部署，相对Github Pages来讲，heroku可以实现动态网站的部署，可以说是一大亮点。</p>
-<blockquote>
+        <h1 id="使用Heroku部署的问与答"><a href="#使用Heroku部署的问与答" class="headerlink" title="使用Heroku部署的问与答"></a>使用Heroku部署的问与答</h1><p>Heroku平台支持多种编程语言。开发者要使用Git把程序推送到Heroku的服务器上。<br>了解git的话可以完全无障碍部署，相对Github Pages来讲，heroku能够实现动态网站的部署，可说是一大亮点。  </p>
+<hr>
 <p><code>git push heroku master</code>时报错：Timed Out</p>
-</blockquote>
-<p>网上看有人说时FW导致，恰恰相反，关闭一切代理(FW)工具即可</p>
 <blockquote>
-<p>使用heroku部署HTML/JS/CSS网页出现blank页面</p>
+<p>网上看有人说时FW导致，恰恰相反，关闭一切代理(FW)工具即可</p>
 </blockquote>
+<p><br></p>
+<p>使用heroku部署HTML/JS/CSS网页出现blank页面</p>
+<blockquote>
 <p>在repository中做以下修改：</p>
 <ol>
 <li>Add a file called composer.json to the root directory by running touch composer.json</li>
@@ -491,8 +492,11 @@
 <li>In composer.json, add the following line: {}</li>
 <li>Run git push heroku master</li>
 </ol>
-<p>heroku不完美的地方：<br>国内加载速度稍慢</p>
+</blockquote>
+<p><br></p>
+<p>heroku不完美的地方：国内加载速度稍慢</p>
 <p>到这里heroku的部署就算完成了。<br><a href="https://portfoliofxy.herokuapp.com/" target="_blank" rel="noopener">我的网站</a></p>
+<p><br></p>
 
         
     
