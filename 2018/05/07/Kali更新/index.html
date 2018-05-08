@@ -43,7 +43,7 @@
     
     <title>
         
-            分类: 编程 | 
+            本地虚拟机搭建可公共访问的小型网站 | 
         
         Oran&#39;s Blog
     </title>
@@ -215,7 +215,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Oran&#39;s Blog">
-    <meta name="msapplication-starturl" content="https://labuboco.github.io/categories/编程/">
+    <meta name="msapplication-starturl" content="https://labuboco.github.io/2018/05/07/Kali更新/">
     <meta name="msapplication-navbutton-color" content="#F5F5F5">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Oran&#39;s Blog">
@@ -230,13 +230,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="https://labuboco.github.io/categories/编程/">
+    <meta property="og:url" content="https://labuboco.github.io/2018/05/07/Kali更新/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="分类: 编程 | Oran&#39;s Blog">
+    <meta property="og:title" content="本地虚拟机搭建可公共访问的小型网站 | Oran&#39;s Blog">
     <meta property="og:image" content="/img/favicon.png">
     <meta property="og:description" content="">
     
 
+    
+        <meta property="article:published_time" content="Mon May 07 2018 19:01:04 GMT+0800">
+        <meta property="article:modified_time" content="Tue May 08 2018 18:24:43 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -244,13 +247,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="https://labuboco.github.io/categories/编程/index.html" />
+        <link rel="canonical" href="https://labuboco.github.io/2018/05/07/Kali更新/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://labuboco.github.io/2018/05/07/Kali更新/index.html",
+    "headline": "本地虚拟机搭建可公共访问的小型网站",
+    "datePublished": "Mon May 07 2018 19:01:04 GMT+0800",
+    "dateModified": "Tue May 08 2018 18:24:43 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "Oran Van",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/logo.png"
+        },
+        "description": "π=f(c)"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Oran&#39;s Blog",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": "",
+    "description": "",
+}
+</script>
 
 
     
@@ -284,275 +317,244 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
+                    <!-- Post TOC -->
+
     
-    <div class="locate-thumbnail-symbol"></div>
-
-    <!-- Pin on top -->
-    
-
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/05/03/5.3/">Bersenham算法</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/05/03/5.3/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/logo.png" width="44px" height="44px" alt="Oran Van's avatar">
-            </div>
-            <div>
-                <strong>Oran Van</strong>
-                <span>5月 03, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/编程/">编程</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
             </span>
-        </div>
+        </a>
     </div>
-</div>
+    -->
 
-            
-            
-        
+
+    <!-- Left aligned menu below button -->
     
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Linux-Vmware-Apache-Ngrok"><span class="post-toc-number">1.</span> <span class="post-toc-text">Linux+Vmware+Apache+Ngrok</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#搭建过程"><span class="post-toc-number">1.0.1.</span> <span class="post-toc-text">搭建过程</span></a></li></ol></li></ol></li></ol>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="https://i.loli.net/2018/04/17/5ad571eacb8e8.jpg">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://i.loli.net/2018/05/08/5af17a59a4e05.png)">
+    
+            <p class="article-headline-p">
+                本地虚拟机搭建可公共访问的小型网站
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/logo.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Oran Van</strong>
+        <span>5月 07, 2018</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
     
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/04/17/使用关键字抓取智联招聘信息/">关键字批量抓取智联招聘信息</a></p>
-    </div>
+    <!-- Tags (bookmark) -->
+    
 
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/04/17/使用关键字抓取智联招聘信息/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/logo.png" width="44px" height="44px" alt="Oran Van's avatar">
-            </div>
-            <div>
-                <strong>Oran Van</strong>
-                <span>4月 17, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/编程/">编程</a>
-              </span>
-            
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
 
-            
+    
 
-            
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=本地虚拟机搭建可公共访问的小型网站&url=https://labuboco.github.io/2018/05/07/Kali更新/index.html&pic=https://labuboco.github.io/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
 
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=本地虚拟机搭建可公共访问的小型网站&url=https://labuboco.github.io/2018/05/07/Kali更新/index.html&via=Oran Van" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://labuboco.github.io/2018/05/07/Kali更新/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+    
 </div>
 
-            
-            
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h2 id="Linux-Vmware-Apache-Ngrok"><a href="#Linux-Vmware-Apache-Ngrok" class="headerlink" title="Linux+Vmware+Apache+Ngrok"></a>Linux+Vmware+Apache+Ngrok</h2><h4 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h4><p><code>apt-get update</code><br>提示“The following signatures were invalid: EXPKEYSIG ED444FF07D8D0BF6 Kali Linux Repository”</p>
+<blockquote>
+<p><code>wget -q -O - https://archive.kali.org/archive-key.asc | apt-key add</code></p>
+</blockquote>
+<p><code>sudo apt-get install apache2</code><br>提示需要更新kernel</p>
+<blockquote>
+<p><a href="https://docs.kali.org/general-use/kali-linux-sources-list-repositories" target="_blank" rel="noopener">配置source.list</a><br>此处建议使用国内的源<br><code>deb http://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free</code><br><a href="https://www.kali.org/news/kali-linux-2018-1-release/" target="_blank" rel="noopener">更新</a><br><code>apt update &amp;&amp; apt full-upgrade</code></p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo chown -R $USER:$USER /var/www/iptest.com/html</span><br><span class="line">sudo chmod -R 755 /var/www</span><br><span class="line">nano /var/www/iptest.com/html/index.html</span><br><span class="line">sudo cp /etc/apache2/sies-available/000-default.conf /etc/apache2/sites-available/iptest.com.conf</span><br></pre></td></tr></table></figure>
+<p>修改iptest.com.conf为：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;VirtualHost *:80&gt;</span><br><span class="line">	ServerAdmin info@iptest.com</span><br><span class="line">	ServerName iptest.com</span><br><span class="line">	ServerAlias www.iptest.com</span><br><span class="line">	DocumentRoot /var/www/iptest.com/html</span><br><span class="line">	ErrorLog $&#123;APACHE_LOG_DIR&#125;/error.log</span><br><span class="line">	CustomLog $&#123;APACHE_LOG_DIR&#125;/access.log combined</span><br><span class="line">&lt;/VirtualHost&gt;</span><br><span class="line"># vim: syntax=apache ts=4 sw=4 sts=4 sr noet</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sudo a2ensite iptest.com.conf</span><br><span class="line">sudo a2dissite 000-default.conf</span><br><span class="line">sudo service apache2 restart</span><br><span class="line">sudo nano /etc/hosts</span><br><span class="line">hosts文件添加行`192.168.136.128 iptest.com`(此行用于内网机器测试，重启后内网会变，要自行修改)</span><br></pre></td></tr></table></figure>
+<p>开启服务器:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo /etc/init.d/apache2 start</span><br><span class="line">sudo /etc/init.d/apache2 stop</span><br></pre></td></tr></table></figure></p>
+<p>局域网内部电脑无法ping通内网网址：</p>
+<blockquote>
+<p>虚拟机-设置-网络适配器-桥接模式</p>
+</blockquote>
+<p>使用ngrok映射:<br><code>./ngrok authtoken 你的token</code><br>运行ngrok进行映射:<br><code>./ngrok http 80</code><br>获取访客信息：<a href="http://localhost:4040" target="_blank" rel="noopener">http://localhost:4040</a></p>
+<blockquote>
+<p>ngrok直接映射localhost,因此不涉及内网或外网ip</p>
+</blockquote>
+<p>apache日志位置:<br>computer/var/log/apache2/access_log</p>
+
         
     
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
     
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="https://i.loli.net/2018/04/10/5acc7a274db62.png">
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/04/10/使用Geolocation获取访客位置/">使用Geolocation获取访客位置</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/04/10/使用Geolocation获取访客位置/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/logo.png" width="44px" height="44px" alt="Oran Van's avatar">
-            </div>
-            <div>
-                <strong>Oran Van</strong>
-                <span>4月 10, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/编程/">编程</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
 </div>
 
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="https://i.loli.net/2018/04/08/5ac9de46f1ef1.png">
-    
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/04/08/使用wordcloud生成词云/">使用wordcloud生成词云</a></p>
-    </div>
+                
 
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/04/08/使用wordcloud生成词云/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/logo.png" width="44px" height="44px" alt="Oran Van's avatar">
-            </div>
-            <div>
-                <strong>Oran Van</strong>
-                <span>4月 08, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/编程/">编程</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'https://labuboco.github.io/2018/05/07/Kali更新/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://labuboco.github.io/2018/05/07/Kali更新/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//labuboco.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
 </script>
 
-    
 </div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2018/05/03/Bersenham算法/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -635,7 +637,7 @@
             </a>
             <ul class="dropdown-menu">
                 <li>
-                <a class="sidebar_archives-link" href="/categories/前端/">前端<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/工具/">工具<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/日常/">日常<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/编程/">编程<span class="sidebar_archives-count">4</span></a>
+                <a class="sidebar_archives-link" href="/categories/Internet-Science/">Internet&Science<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/categories/日常/">日常<span class="sidebar_archives-count">2</span></a>
             </ul>
         </li>
         
